@@ -1,0 +1,30 @@
+body {
+    background: white;
+}
+
+#fixedbox {
+    position: fixed;
+    top: 0;
+    height: 100px;
+    width: 150px;
+    z-index: 2;
+    background: green;
+}
+
+#relativebox {
+    position: relative;
+    background: grey;
+    width: 500px;
+    height: 300px;
+    padding: 50px;
+}
+
+#absolutebox {
+    position: absolute;
+    z-index: 4;
+    top: 250px;
+    right: -10px;
+    width: 150px; 
+    bottom: 0;
+    background: blue;
+}
